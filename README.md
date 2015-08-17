@@ -11,114 +11,118 @@ or
     val lines: List[String] = FileReader.readFile("/input2.txt")
 
 
-1. input.txt
+    1. input.txt
 
-    Input
-    C 20 4
-    L 1 2 6 2
-    L 6 3 6 4
-    R 16 1 20 3
-    B 10 3 o
-
-
-    Output
-    ----------------------
-    |                    |
-    |                    |
-    |                    |
-    |                    |
-    ----------------------      
-    ----------------------
-    |                    |
-    |xxxxxx              |
-    |                    |
-    |                    |
-    ----------------------
-    ----------------------
-    |                    |
-    |xxxxxx              |
-    |     x              |
-    |     x              |
-    ----------------------
-    ----------------------
-    |               xxxxx|
-    |xxxxxx         x   x|
-    |     x         xxxxx|
-    |     x              |
-    ----------------------
-    ----------------------
-    |oooooooooooooooxxxxx|
-    |xxxxxxooooooooox   x|
-    |     xoooooooooxxxxx|
-    |     xoooooooooooooo|
-    ----------------------    
+    ``` Input
+        C 20 4
+        L 1 2 6 2
+        L 6 3 6 4
+        R 16 1 20 3
+        B 10 3 o
+    ```    
 
 
-2. input2.txt
+    ``` Output
+        ----------------------
+        |                    |
+        |                    |
+        |                    |
+        |                    |
+        ----------------------      
+        ----------------------
+        |                    |
+        |xxxxxx              |
+        |                    |
+        |                    |
+        ----------------------
+        ----------------------
+        |                    |
+        |xxxxxx              |
+        |     x              |
+        |     x              |
+        ----------------------
+        ----------------------
+        |               xxxxx|
+        |xxxxxx         x   x|
+        |     x         xxxxx|
+        |     x              |
+        ----------------------
+        ----------------------
+        |oooooooooooooooxxxxx|
+        |xxxxxxooooooooox   x|
+        |     xoooooooooxxxxx|
+        |     xoooooooooooooo|
+        ----------------------
+      ```  
 
-    Input      
-    C 8 6
-    R 1 1 3 3
-    R 4 3 7 5
-    L 1 5 3 5
-    B 2 2 v
-    B 2 4 r
-    B 5 4 a
 
-    Output
-    ----------
-    |        |
-    |        |
-    |        |
-    |        |
-    |        |
-    |        |
-    ----------
-    ----------
-    |xxx     |
-    |x x     |
-    |xxx     |
-    |        |
-    |        |
-    |        |
-    ----------
-    ----------
-    |xxx     |
-    |x x     |
-    |xxxxxxx |
-    |   x  x |
-    |   xxxx |
-    |        |
-    ----------
-    ----------
-    |xxx     |
-    |x x     |
-    |xxxxxxx |
-    |   x  x |
-    |xxxxxxx |
-    |        |
-    ----------
-    ----------
-    |xxx     |
-    |xvx     |
-    |xxxxxxx |
-    |   x  x |
-    |xxxxxxx |
-    |        |
-    ----------
-    ----------
-    |xxx     |
-    |xvx     |
-    |xxxxxxx |
-    |rrrx  x |
-    |xxxxxxx |
-    |        |
-    ----------
-    ----------
-    |xxx     |
-    |xvx     |
-    |xxxxxxx |
-    |rrrxaax |
-    |xxxxxxx |
-    |        |
-    ----------    
+    2. input2.txt
+
+    ``` Input      
+        C 8 6
+        R 1 1 3 3
+        R 4 3 7 5
+        L 1 5 3 5
+        B 2 2 v
+        B 2 4 r
+        B 5 4 a
+    ```    
+
+    ``` Output
+        ----------
+        |        |
+        |        |
+        |        |
+        |        |
+        |        |
+        |        |
+        ----------
+        ----------
+        |xxx     |
+        |x x     |
+        |xxx     |
+        |        |
+        |        |
+        |        |
+        ----------
+        ----------
+        |xxx     |
+        |x x     |
+        |xxxxxxx |
+        |   x  x |
+        |   xxxx |
+        |        |
+        ----------
+        ----------
+        |xxx     |
+        |x x     |
+        |xxxxxxx |
+        |   x  x |
+        |xxxxxxx |
+        |        |
+        ----------
+        ----------
+        |xxx     |
+        |xvx     |
+        |xxxxxxx |
+        |   x  x |
+        |xxxxxxx |
+        |        |
+        ----------
+        ----------
+        |xxx     |
+        |xvx     |
+        |xxxxxxx |
+        |rrrx  x |
+        |xxxxxxx |
+        |        |
+        ----------
+        ----------
+        |xxx     |
+        |xvx     |
+        |xxxxxxx |
+        |rrrxaax |
+        |xxxxxxx |
+        |        |
+        ---------- 
+```
