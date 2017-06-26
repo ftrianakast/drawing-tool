@@ -17,7 +17,7 @@ object CommanderExecutor {
 
 
   /**
-   * Executes commands for create and drawing things in a Canvas
+   * Executes commands for creating and drawing things in a Canvas
    *
    * @param commands The method supports 4 commands:
    *                 1- C: for canvas creation
@@ -25,7 +25,7 @@ object CommanderExecutor {
    *                 3- R: for drawing a rectangle
    *                 4- B: for fill an area with a specified color
    *
-   * @return Result: A result we the computed canvas and also the partial states of a Canvas
+   * @return Result: A result with the computed canvas and also the partial states of a Canvas
    */
   def executeCommands(commands: List[List[String]]): Result = {
     var computedCanvas: ValidationNel[DomainException, Canvas] = Canvas(1, 1, List())
